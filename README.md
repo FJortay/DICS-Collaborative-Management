@@ -1,5 +1,5 @@
 # DICS
-Co-management system, on decentralized network, with IA
+Co-management system, on decentralized network, with AI
 
 - [1. Summary](summary)
 - [2. Global Platform Architecture](global-platform-architecture)
