@@ -2,163 +2,185 @@
 Co-management system, on decentralized network, with AI
 
 - [1. Summary](summary)
-- [2. Global Platform Architecture](global-platform-architecture)
-- [3. Interaction Between Modules and Instances](interactionbetweenmodules-and-instances)
-- [4. Detailed Technical Specifications](detailed-technical-specifications)
-- [5. AI-Powered Module Design](ai--powered-module-design)
-- [6. Security and Decentralization](security-and-ecentralization)
-- [7. User Experience (UX)](user-experience-(ux))
+- [2. How AI can streamline DICS](how-ai-can-streamline-dics)
+- [3. AI-Powered Module](ai--powered-module)
+- [4. Interaction Between Modules](interactionbetweenmodules)
+- [5. Security](security)
+- [6. User Experience (UX)](user-experience-(ux))
+- [7. Global Architecture](global-architecture)
 - [8. Backend Development Tools](backend-development-tools)
-- [9. Conclusion](conclusion)
+- [9. How To Participate](how-to-particpate)
+- [10. Conclusion](conclusion)
 
 ### 1. Summary
-We want to design a decentralized and intelligent co-management platform, usable by any type of organization (small local association, company, municipality, State) operating according to a direct democracy model.
+We want to design an intelligent and decentralized co-management web platform, intended for any type of organization (local association, company, municipality, State) wishing to operate under the rules of direct democracy.
 
-The three main application modules of this platform are:
+DICS is composed of three main applicative modules, combined into a chronological series :
 
 1. discussion forum;
 2. collective writing (in particular of voting statements);
 3. voting system.
 
-The four instances of this system (each using the three modules) are:
+This suite of three modules allows the four main activities of organization management to be operated in a decentralized manner:
 
-- control (are the internal regulations correctly applied?);
-- audit (improvement of the internal regulations);
-- projects (development of the organization);
-- operational (daily management).
+- *control* : are the organisation internal regulations correctly applied?
+- *audit* : internal regulations improvement;
+- *projects* : organization developement;
+- *operational* : daily management.
 
 Software and hardware environment:
 
-- software: the system should be modular (in order to facilitate technological evolution) and composed exclusively of free software (in the sense of fsf.org) and decentralized (therefore both client and server). The integration of existing solutions should be preferred to the development of existing modules.
+- ***Software.*** The system should be decentralized (therefore both client and server), modular (in order to facilitate technological evolution) and exclusively composed of free software (as defined by [fsf.org](https://fsf.org)). 
 
-- hardware: this platform would be intended to run on the DIOS network (project), which would be smart, P2P and wireless (see https://github.com/FJortay/DIOS). On the other hand, each member of the organization is supposed to use two types of open source terminals: a desktop computer and an IPV card (a smart card-type device, not yet in existence, with a touch screen and virtual keyboard, dedicated to identification, payments and voting). The system cannot rely on the use of a smartphone (for reasons of mental health and computer security).
+- ***Hardware.*** DICS would be intended to run on the [DIOS network](https://github.com/FJortay/DIOS) (project), which would be P2P, wireless and AI driven. Regarding organization members, these are supposed to use two kinds of [open source terminals](https://www.gnu.org/philosophy/free-hardware-designs.html) : a desktop computer and an IPV card (a not yet existing smart card-type device with touch screen and virtual keyboard, dedicated to identification, payments and voting). The system should not rely on the use of smartphone (for reasons of mental health and computer security).
 
-​Here is the updated architecture design for the DICS platform, with links to the respective software tools:
-
----
-
-### 2. Global Architecture of the Platform
-
-#### a. Modular and Service-Oriented Architecture
-
-- Containerization:
-  - [Docker](https://www.docker.com/): To package microservices in a standardized way.
-
-- *Decentralized Orchestration:*
-  - [Docker Swarm](https://docs.docker.com/engine/swarm/): Integrated within a decentralized network (via DIOS) or adapting the DIOS solution itself to coordinate nodes, avoiding traditional centralized orchestrators.
-
-#### **b. Decentralized Infrastructure**
-
-- **P2P Infrastructure:**
-  - [DIOS](https://github.com/FJortay/DIOS): Enables deployment and execution of the platform on a decentralized network, ensuring service distribution without a central control point.
+Sections 3 to 8 present a open source solution for each point. However, these were not designed and developed in the current new era of conversational AI. As a result, much of DICS may need to be built from scratch.  Nevertheless, assessing what is presently available may be a good choice for a first step. And the second one may even consist in integrating them... 
 
 ---
 
-### **3. Interaction Between Modules and Instances**
+### 2. How AI can streamline DICS
 
-#### **a. API Schemas and Communication Protocols**
+2.1. **Discussion Forum**  
 
-- **API Design:**
-  - [OpenAPI / Swagger](https://swagger.io/specification/): Defines and documents communication interfaces between microservices in a standardized way.
+   - ***Automated Moderation***  
+     AI can analyze messages in real time (via natural language processing algorithms) to detect and filter inappropriate content.  
+     
+   - ***Discussion Summarization***  
+     AI-powered tools can generate concise summaries of long discussions, helping users quickly grasp key points.  
 
-#### **b. Data Flow Management**
+2.2. **Collective Drafting**  
 
-- **Decentralized Message Bus:**
-  - [IPFS PubSub](https://github.com/libp2p/specs/tree/master/pubsub): IPFS’s publish/subscribe mechanism enables message exchange between nodes in a decentralized manner, without a central server.
+   - ***Writing Assistance***  
+     AI can provide real-time grammatical and stylistic corrections, suggest rewordings, and improve text coherence—especially useful for drafting voting statements.  
+     
+   - ***Intelligent Version Management***  
+     With multiple contributors, AI-driven algorithms can merge different versions, detect inconsistencies, and propose a coherent synthesis of collaboratively written documents. 
 
-#### **c. Service Orchestration**
+2.3. **Voting System**  
 
-- **Decentralized Coordination:**
-  - Service coordination can be handled by the DIOS protocol, distributing tasks among participating nodes, eliminating the need for a central orchestrator.
+   - ***Vote Security and Verification***  
+     By analyzing voting behavior and applying cryptographic techniques, AI can detect anomalies or fraud attempts in real time. 
+      
+   - ***Impact Simulation and Forecasting***  
+     Before finalizing votes, predictive models can simulate the potential consequences of proposed decisions, assisting in informed decision-making.  
+---
+
+### **3. AI-Powered Modules**
+
+#### 3.1. Discussion Forum
+
+- ***Content Moderation and Analysis***
+  
+  - *[spaCy](https://spacy.io/)* : Open-source NLP library for analyzing messages and automatically detecting inappropriate content.
+    
+  - *[Hugging Face Transformers](https://huggingface.co/transformers/)* : Implements classification models, sentiment analysis, and automatic discussion summarization.
+
+#### 3.2. Collaborative Writing
+
+- ***Real-Time Editing***
+  
+  - *[Etherpad](https://etherpad.org/)* : An open-source collaborative editor that can be containerized and deployed on each DIOS node, ensuring decentralized editing.
+    
+  - *[CodiMD](https://github.com/hackmdio/codimd)* : Another open-source collaborative tool suitable for decentralized editing.
+
+- ***Writing Assistance***
+  
+  - *[LanguageTool](https://languagetool.org/)* : Provides real-time grammar and style corrections, integrated via API into the editor.
+
+#### 3.3. Decentralized and Secure Voting
+
+  - *[Helios](https://heliosvoting.org/)* and *[Belenios](https://www.belenios.org/)* are designed for elections (not realy for referendums). Loomio integrates the three phases of decision-making, but its protocols are less secure. All three are designed in client-server mode. So there is work to be done : decentralize processes, capacity to handle boths referendums and elections, large number of voters, AI detection of anomalies or suspicious behavior in the voting process,...
 
 ---
 
-### **4. Detailed Technical Specifications**
+### **4. Interaction Between Modules**
 
-#### **a. Data Modeling**
+#### *API*
 
-- **Decentralized File Storage:**
-  - [IPFS (InterPlanetary File System)](https://ipfs.io/): For distributed hosting and sharing of documents, files, and collaborative data.
+  - *[OpenAPI / Swagger](https://swagger.io/specification/)* : Defines and documents communication interfaces between microservices in a standardized way. Ensures API interoperability between microservices.
 
-- **Decentralized Database:**
-  - [OrbitDB](https://orbitdb.org/): A decentralized NoSQL database running on IPFS, suited for storing histories, messages, and collaborative contributions.
+#### *Decentralized Message Bus*
 
-- **Distributed Ledger (if needed):**
-  - [BigchainDB](https://www.bigchaindb.com/): Registers votes and modifications in an immutable ledger, leveraging decentralized infrastructure.
+  - *[IPFS PubSub](https://github.com/libp2p/specs/tree/master/pubsub)* : IPFS’s publish/subscribe mechanism enables message exchange between nodes in a decentralized manner, without a central server.
 
-#### **b. Interfaces and Protocols**
+#### *Data Modeling*
 
-- **Documentation and Standardization:**
-  - [OpenAPI/Swagger](https://swagger.io/specification/): Ensures API interoperability between microservices.
+- *Decentralized File Storage*
+  - *[IPFS (InterPlanetary File System)](https://ipfs.io/)* : For distributed hosting and sharing of documents, files, and collaborative data.
 
----
+- *Decentralized Database*
+  - *[OrbitDB](https://orbitdb.org/)* : A decentralized NoSQL database running on IPFS, suited for storing histories, messages, and collaborative contributions.
 
-### **5. AI-Powered Module Design**
-
-#### **a. Discussion Forum**
-
-- **Content Moderation and Analysis:**
-  - [spaCy](https://spacy.io/): Open-source NLP library for analyzing messages and automatically detecting inappropriate content.
-  - [Hugging Face Transformers](https://huggingface.co/transformers/): Implements classification models, sentiment analysis, and automatic discussion summarization.
-
-#### **b. Collaborative Writing**
-
-- **Real-Time Editing:**
-  - [Etherpad](https://etherpad.org/): An open-source collaborative editor that can be containerized and deployed on each DIOS node, ensuring decentralized editing.
-  - [CodiMD](https://github.com/hackmdio/codimd): Another open-source collaborative tool suitable for decentralized editing.
-
-- **Writing Assistance:**
-  - [LanguageTool](https://languagetool.org/): Provides real-time grammar and style corrections, integrated via API into the editor.
-
-#### **c. Voting System**
-
-- **Decentralized and Secure Voting:**
-  - [Helios Voting](https://heliosvoting.org/): An open-source electronic voting system that, when adapted and deployed on DIOS, offers transparency and verifiability in a distributed environment.
-  - Complementary algorithms (developed in Python or Node.js) can be added to detect anomalies or suspicious behavior in the voting process.
+- *Distributed Ledger (if needed)*
+  - *[BigchainDB](https://www.bigchaindb.com/) : Registers votes and modifications in an immutable ledger, leveraging decentralized infrastructure.
 
 ---
 
-### **6. Security and Decentralization**
+### 5. Security
 
-#### **a. Authentication and Authorization**
+#### *Decentralized Identity Management*
 
-- **Decentralized Identity Management:**
-  - [Hyperledger Indy](https://www.hyperledger.org/use/hyperledger-indy): Provides a decentralized identity solution using DIDs (Decentralized Identifiers), allowing users to control their authentication data without a central server.
+  - *[Hyperledger Indy](https://www.hyperledger.org/use/hyperledger-indy)* : Provides a decentralized identity solution using DIDs (Decentralized Identifiers), allowing users to control their authentication data without a central server.
 
-#### **b. Data Encryption**
+#### *Encryption Libraries*
 
-- **Encryption Libraries:**
-  - [OpenSSL](https://www.openssl.org/): Used in each microservice to encrypt data in transit and at rest, ensuring security even in a distributed environment.
-  - [Libsodium](https://libsodium.gitbook.io/doc/): Another library for encryption, suitable for securing data in decentralized applications.
+  - *[OpenSSL](https://www.openssl.org/)* : Used in each microservice to encrypt data in transit and at rest, ensuring security even in a distributed environment.
+    
+  - *[Libsodium](https://libsodium.gitbook.io/doc/)* : Another library for encryption, suitable for securing data in decentralized applications.
 
-#### **c. Resilience and Availability**
+#### *Decentralized Fault Tolerance*
+  - *[IPFS](https://ipfs.io/) & [OrbitDB](https://orbitdb.org/)* : Data redundancy is naturally ensured through the decentralized network.
 
-- **Decentralized Fault Tolerance:**
-  - [IPFS](https://ipfs.io/) & [OrbitDB](https://orbitdb.org/): Data redundancy is naturally ensured through the decentralized network.
+#### *Distributed Monitoring*
 
-- **Distributed Monitoring:**
-  - While tools like [Prometheus](https://prometheus.io/) and [Grafana](https://grafana.com/) are typically used in centralized setups, they can be deployed in a federated mode on DIOS to collect and visualize metrics from multiple nodes without centralization.
+  - While tools like *[Prometheus](https://prometheus.io/)* and *[Grafana](https://grafana.com/)* are typically used in centralized setups, they can be deployed in a federated mode on DIOS to collect and visualize metrics from multiple nodes without centralization.
 
 ---
 
-### **7. User Experience (UX)**
+### 6. User Experience (UX)
 
 - **Interactive Guides:**
-  - [Intro.js](https://introjs.com/): Creates interactive tutorials embedded within the web application.
+  
+  - *[Intro.js](https://introjs.com/)* : Creates interactive tutorials embedded within the web application.
 
 - **Feedback Collection:**
-  - [LimeSurvey](https://www.limesurvey.org/): A self-hosted survey tool for collecting user feedback.
-  - [Matrix](https://matrix.org/): A decentralized communication protocol that can be used for asynchronous communications, allowing feedback collection and analysis in a decentralized framework.
+  
+  - *[LimeSurvey](https://www.limesurvey.org/)* : A self-hosted survey tool for collecting user feedback.
+    
+  - *[Matrix](https://matrix.org/)* : A decentralized communication protocol that can be used for asynchronous communications, allowing feedback collection and analysis in a decentralized framework.
 
 ---
 
-### **8. Backend Development Tools**
+### 7. Global Architecture 
 
-  - [Node.js](https://nodejs.org/): With [Express](https://expressjs.com/) for API and microservices development, containerized and deployed on DIOS.
-  - [Python](https://www.python.org/): With [Flask](https://flask.palletsprojects.com/) or [Django](https://www.djangoproject.com/) for developing backend services in a decentralized environment.
+#### *Containerization*
+
+  - *[Docker](https://www.docker.com/)* : Packaging microservices in a standardized way.
+
+ #### *Decentralized Orchestration*:
+ 
+  - *[Docker Swarm](https://docs.docker.com/engine/swarm/)* : Integrated within a decentralized network (via DIOS) or adapting the DIOS solution itself to coordinate nodes, avoiding traditional centralized orchestrators.
+
+#### *P2P Infrastructure*
+
+  - *[DIOS](https://github.com/FJortay/DIOS)* : Enables deployment and execution of the platform on a decentralized network, ensuring service distribution without a central control point.
 
 ---
 
-### **9. Conclusion**  
+### 8. Backend Development Tools
 
-By combining these open-source tools designed for a 100% decentralized environment, the **DICS** platform can be deployed on **DIOS**, ensuring modularity, security, and resilience necessary for **direct democracy governance**. Each component, from microservice orchestration to identity management, is carefully selected to uphold decentralization principles, guaranteeing system autonomy and transparency.
+  - *[Node.js](https://nodejs.org/)* with *[Express](https://expressjs.com/)* for API and microservices development, containerized and deployed on DIOS.
+    
+  - [Python](https://www.python.org/)* with *[Flask](https://flask.palletsprojects.com/)* or *[Django](https://www.djangoproject.com/)* for developing backend services in a decentralized environment.
+
+---
+
+### **9. How to participate**  
+
+Help improve this *first draft* README. This is the first step of a long journey...
+
+---
+
+### **10. Conclusion**  
+
+Before 2023, a project like the DICS/[DIOS](https://github.com/FJortay/DIOS) system would have seemed unfeasible for a long time to come. But since then, conversational AI has emerged. It will not only help us design this ***collective intelligence system*** but also grant it capabilities that were unimaginable just a few years ago. The challenges to overcome, or circumvent, are certainly numerous and high, but in any case, the fruits of this research will be just as numerous and enriching.
