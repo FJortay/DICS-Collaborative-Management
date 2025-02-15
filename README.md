@@ -40,7 +40,7 @@ Sections 3 to 8 present a open source solution for each point. However, these we
 
 ---
 
-### How AI can streamline DICS
+### 2. How AI can streamline DICS
 
 2.1. **Discussion Forum**  
 
