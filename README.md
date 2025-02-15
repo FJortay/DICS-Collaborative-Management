@@ -30,11 +30,13 @@ This suite of three modules allows the four main activities of organization mana
 
 Software and hardware environment:
 
-- ***Software.*** The system should be decentralized (therefore both client and server), modular (in order to facilitate technological evolution) and exclusively composed of free software (as defined by [fsf.org](https://fsf.org)). 
+- ***Software.*** The system should be ***decentralized*** (therefore both client and server), ***modular*** (in order to facilitate technological evolution) and exclusively composed of ***free software*** (as defined by [fsf.org](https://fsf.org)). 
 
-- ***Hardware.*** DICS would be intended to run on the [DIOS network](https://github.com/FJortay/DIOS) (project), which would be P2P, wireless and AI driven. Regarding organization members, these are supposed to use two kinds of [open source terminals](https://www.gnu.org/philosophy/free-hardware-designs.html) : a desktop computer and an IPV card (a not yet existing smart card-type device with touch screen and virtual keyboard, dedicated to identification, payments and voting). The system should not rely on the use of smartphone (for reasons of mental health and computer security).
+- ***Hardware.*** DICS would be intended to run on the [DIOS network](https://github.com/FJortay/DIOS) (project), which would be P2P, wireless and AI driven. Regarding organization members, these are assumed to use two kinds of [open source terminals](https://www.gnu.org/philosophy/free-hardware-designs.html) : a desktop computer and an IPV card (a not yet existing smart card-type device with touch screen and virtual keyboard, dedicated to identification, payments and voting). The system should not rely on any use of smartphone (for reasons of mental health and computer security).
 
 Sections 3 to 8 present a open source solution for each point. However, these were not designed and developed in the current new era of conversational AI. As a result, much of DICS may need to be built from scratch.  Nevertheless, assessing what is presently available may be a good choice for a first step. And the second one may even consist in integrating them... 
+
+*This is a "[Building AI course project](https://buildingai.elementsofai.com/)".*
 
 ---
 
@@ -65,7 +67,7 @@ Sections 3 to 8 present a open source solution for each point. However, these we
      Before finalizing votes, predictive models can simulate the potential consequences of proposed decisions, assisting in informed decision-making.  
 ---
 
-### **3. AI-Powered Modules**
+### 3. AI-Powered Modules
 
 #### 3.1. Discussion Forum
 
@@ -163,7 +165,7 @@ Sections 3 to 8 present a open source solution for each point. However, these we
 
 #### *P2P Infrastructure*
 
-  - *[DIOS](https://github.com/FJortay/DIOS)* : Enables deployment and execution of the platform on a decentralized network, ensuring service distribution without a central control point.
+  - *[DIOS](https://github.com/FJortay/DIOS)* : Enables deployment and execution of the platform on a decentralized network, ensuring service distribution without a central control point. In a very simple [OSI model](https://en.wikipedia.org/wiki/OSI_model) with only two layers, DICS could be seen as the upper layer, and DIOS the lower one.
 
 ---
 
