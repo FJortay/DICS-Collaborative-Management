@@ -3,13 +3,13 @@ Co-management system, on decentralized network, with AI
 
 - [1. Summary](#1-summary)
 - [2. How AI can streamline DICS](#2-how-ai-can-streamline-dics)
-- [3. AI-Powered Module](#3-ai-powered-module)
+- [3. AI-Powered Module](#3-ai-powered-modules)
 - [4. Interaction Between Modules](#4-interaction-between-modules)
 - [5. Security](#5-security)
-- [6. User Experience (UX)](#6-user-experience-(ux))
+- [6. User Experience (UX)](#6-user-experience-ux)
 - [7. Global Architecture](#7-global-architecture)
 - [8. Backend Development Tools](#8-backend-development-tools)
-- [9. How To Participate](#9-how-to-particpate)
+- [9. How To Participate](#9-how-to-participate)
 - [10. Conclusion](#10-conclusion)
 
 ### 1. Summary
@@ -177,7 +177,7 @@ Sections 3 to 8 present a open source solution for each point. However, these we
 
 ---
 
-### **9. How to participate**  
+### **9. How To Participate**  
 
 Help improve this *first draft* README. This is the first step of a long journey...
 
