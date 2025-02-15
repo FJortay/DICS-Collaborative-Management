@@ -1,16 +1,16 @@
 # DICS
 Co-management system, on decentralized network, with AI
 
-- [1. Summary](summary)
-- [2. How AI can streamline DICS](#how-ai-can-streamline-dics)
-- [3. AI-Powered Module](ai--powered-module)
-- [4. Interaction Between Modules](interactionbetweenmodules)
-- [5. Security](security)
-- [6. User Experience (UX)](user-experience-(ux))
-- [7. Global Architecture](global-architecture)
-- [8. Backend Development Tools](backend-development-tools)
-- [9. How To Participate](how-to-particpate)
-- [10. Conclusion](conclusion)
+- [1. Summary](#summary)
+- [2. How AI can streamline DICS](#2.-how-ai-can-streamline-dics)
+- [3. AI-Powered Module](#ai--powered-module)
+- [4. Interaction Between Modules](#interactionbetweenmodules)
+- [5. Security](#security)
+- [6. User Experience (UX)](#user-experience-(ux))
+- [7. Global Architecture](#global-architecture)
+- [8. Backend Development Tools](#backend-development-tools)
+- [9. How To Participate](#how-to-particpate)
+- [10. Conclusion](#conclusion)
 
 ### 1. Summary
 We want to design an intelligent and decentralized co-management web platform, intended for any type of organization (local association, company, municipality, State) wishing to operate under the rules of direct democracy.
