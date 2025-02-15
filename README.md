@@ -2,7 +2,7 @@
 Co-management system, on decentralized network, with AI
 
 - [1. Summary](#summary)
-- [2. How AI can streamline DICS](#2.-how-ai-can-streamline-dics)
+- [2. How AI can streamline DICS](#-2.-how-ai-can-streamline-dics)
 - [3. AI-Powered Module](#ai--powered-module)
 - [4. Interaction Between Modules](#interactionbetweenmodules)
 - [5. Security](#security)
