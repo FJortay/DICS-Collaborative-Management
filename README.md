@@ -34,7 +34,7 @@ Software and hardware environment:
 
 - ***Hardware.*** DICS would be intended to run on the [DIOS network](https://github.com/FJortay/DIOS) (project), which would be P2P, wireless and AI driven. Regarding organization members, these are assumed to use two kinds of [open source terminals](https://www.gnu.org/philosophy/free-hardware-designs.html) : a desktop computer and an IPV card (a not yet existing smart card-type device with touch screen and virtual keyboard, dedicated to identification, payments and voting). The system should not rely on any use of smartphone (for reasons of mental health and computer security).
 
-Sections 3 to 8 present a open source solution for each point. However, these were not designed and developed in the current new era of conversational AI. As a result, much of DICS may need to be built from scratch.  Nevertheless, assessing what is presently available may be a good choice for a first step. And the second one may even consist in integrating them... 
+In sections 3, an open source solution is mentioned for each point. However, these software were not designed and developed in the current new era of conversational AI. As a result, much of DICS may need to be built from scratch.  Nevertheless, assessing what is presently available may be a good choice for a first step. And the second one may even consist in integrating them... 
 
 *This is a "[Building AI course project](https://buildingai.elementsofai.com/)".*
 
