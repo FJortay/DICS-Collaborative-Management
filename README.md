@@ -1,5 +1,5 @@
 # DICS  
-Co-management system on a decentralized network, enhanced by AI
+Design of a co-management system on decentralized network, enhanced by AI
 
 - [1. Summary](#1-summary)
 - [2. How AI can streamline DICS](#2-how-ai-can-streamline-dics)
