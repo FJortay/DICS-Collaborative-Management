@@ -16,7 +16,7 @@ Co-management system on a decentralized network, enhanced by AI
 
 ### 1. Summary
 
-We want to design as an intelligent and decentralized co-management web platform for organizations (whether local associations, companies, municipalities, or states) that choose to operate under direct democracy. The decentralized platform is composed of three sequentially integrated applicative modules:
+DICS is envisioned as an intelligent and decentralized co-management web platform for organizations (whether local associations, companies, municipalities, or states) that choose to operate under direct democracy. The decentralized platform is composed of three sequentially integrated applicative modules:
 
 1. Discussion forum  
 2. Collective writing (especially for drafting voting statements)  
