@@ -1,4 +1,4 @@
-# DICS  
+## DICS Collaborative Management 
 Design of a co-management system on decentralized network, enhanced by AI
 
 - [1. Summary](#1-summary)
@@ -37,7 +37,7 @@ Together, these modules support the four main facets of organizational managemen
 
 In Sections 3 to 8, open source solutions are proposed for each component. However, many of these software packages were not originally developed with today’s conversational AI advances in mind. As such, significant parts of DICS may need to be built from scratch—or integrated with existing tools as a first step.
 
-*This is a "[Building AI course project](https://buildingai.elementsofai.com/)".*
+*The DICS Collaborative Management repository, along with [DIOS Operating System](https://github.com/FJortay/DICS-Collaborative-Management) repository, is part of the [DICOS Societal Project](https://github.com/FJortay/DICOS-Societal-Project)".*
 
 ---
 
