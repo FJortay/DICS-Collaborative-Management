@@ -9,8 +9,9 @@ Design of a co-management system on decentralized network, enhanced by AI
 - [6. User Experience (UX)](#6-user-experience-ux)
 - [7. Global Architecture](#7-global-architecture)
 - [8. Backend Development Tools](#8-backend-development-tools)
-- [9. How To Participate](#9-how-to-participate)
-- [10. Conclusion](#10-conclusion)
+- [9. Resources](#9-resources)
+- [10. How To Participate](#10-how-to-participate)
+- [11. Conclusion](#11-conclusion)
 
 ---
 
@@ -31,13 +32,13 @@ Together, these modules support the four main facets of organizational managemen
 
 **Software and Hardware Environment:**
 
-- ***Software.*** DICS is built to be ***decentralized*** (both client and server), ***modular*** (to ease future technological evolution), and entirely composed of ***free software*** (as defined by [fsf.org](https://fsf.org)).
+- ***Software.*** DICS is built to be ***decentralized*** (modules are both client and server), ***modular*** (to ease future technological evolution), and entirely composed of ***free software*** (as defined by [fsf.org](https://fsf.org)).
 
-- ***Hardware.*** DICS is intended to run on the [DIOS network](https://github.com/FJortay/DIOS), which is P2P, wireless, and AI-driven. Organization members are assumed to use two types of [open source terminals](https://www.gnu.org/philosophy/free-hardware-designs.html): a desktop computer and an IPV card (a future smart card-type device with a touchscreen and virtual keyboard for identification, payments, and voting). The system is deliberately designed without reliance on smartphones, addressing concerns regarding mental health and computer security.
+- ***Hardware.*** DICS is intended to run on the [DIOS network](https://github.com/FJortay/DIOS-Operating-System), which is P2P, wireless, and AI-driven. Organization members are assumed to use two types of [open source terminals](https://www.gnu.org/philosophy/free-hardware-designs.html): a desktop computer and an IPV card (a a yet-to-be-developed smart card-type device with a touchscreen and virtual keyboard for identification, payments, and voting). The system is deliberately designed without reliance on smartphones, addressing concerns regarding mental health and computer security.
 
-In Sections 3 to 8, open source solutions are proposed for each component. However, many of these software packages were not originally developed with today’s conversational AI advances in mind. As such, significant parts of DICS may need to be built from scratch—or integrated with existing tools as a first step.
+In Sections 3 to 8, open source solutions are proposed for each component. Modules should be integrated in a standardized manner to streamline the system's evolvability (i.e., the replacement of existing modules with new ones). Indeed, many of these software packages were not originally developed with today’s conversational AI advances in mind. As such, significant parts of DICS may need to be built from scratch—or integrated with existing tools as a first step.
 
-*The DICS Collaborative Management repository, along with [DIOS Operating System](https://github.com/FJortay/DIOS-Operating-System) repository, is part of the [DICOS Societal Project](https://github.com/FJortay/DICOS-Societal-Project)".*
+*DICS Collaborative Management, along with [DIOS Operating System](https://github.com/FJortay/DIOS-Operating-System), is part of the [DISCO Collective Intelligence](https://github.com/FJortay/DICOS-Societal-Project) project.*
 
 ---
 
@@ -46,7 +47,7 @@ In Sections 3 to 8, open source solutions are proposed for each component. Howev
 #### 2.1. **Discussion Forum**
 
 - ***Automated Moderation:***  
-  AI analyzes messages in real time using natural language processing (NLP) to detect and filter inappropriate content, ensuring a respectful and constructive discussion environment.
+  AI analyzes messages in real time using natural language processing (NLP) to detect and filter inappropriate content, ensuring a respectful and constructive discussion environment. Additionally, AI can contribute as an expert participant, offering relevant insights and contextual knowledge to enrich the debate.
   
 - ***Discussion Summarization:***  
   AI-powered summarization tools generate concise overviews of extended discussions, allowing users to quickly grasp the key points and trends.
@@ -61,11 +62,11 @@ In Sections 3 to 8, open source solutions are proposed for each component. Howev
 
 #### 2.3. **Voting System**
 
-- ***Vote Security and Verification:***  
-  AI monitors voting behavior and leverages cryptographic techniques to detect anomalies or potential fraud in real time.
-  
 - ***Impact Simulation and Forecasting:***  
   Predictive models simulate the potential consequences of proposed decisions, enabling voters to make more informed choices before finalizing votes.
+
+- ***Vote Security and Verification:***  
+  AI monitors voting behavior and leverages cryptographic techniques to detect anomalies or potential fraud in real time.
 
 ---
 
@@ -83,7 +84,7 @@ In Sections 3 to 8, open source solutions are proposed for each component. Howev
 
 - ***Real-Time Editing:***
 
-  - *[Etherpad](https://etherpad.org/):* A containerizable open source collaborative editor deployed on each DIOS node to ensure decentralized editing.
+  - *[Etherpad](https://etherpad.org/):* A containerizable open source collaborative editor deployed on each [DIOS](https://github.com/FJortay/DIOS-Operating-System) node to ensure decentralized editing.
   
   - *[CodiMD](https://github.com/hackmdio/codimd):* Another open source collaborative tool well-suited for decentralized editing.
   
@@ -147,7 +148,7 @@ In Sections 3 to 8, open source solutions are proposed for each component. Howev
 
 #### *Distributed Monitoring*
 
-- While tools like *[Prometheus](https://prometheus.io/)* and *[Grafana](https://grafana.com/)* are traditionally used in centralized environments, they can be deployed in federated modes within DIOS to collect and visualize metrics across nodes without centralization.
+- While tools like *[Prometheus](https://prometheus.io/)* and *[Grafana](https://grafana.com/)* are traditionally used in centralized environments, they can be deployed in federated modes within [DIOS](https://github.com/FJortay/DIOS-Operating-System) to collect and visualize metrics across nodes without centralization (according to chatGPT).
 
 ---
 
@@ -178,11 +179,11 @@ In Sections 3 to 8, open source solutions are proposed for each component. Howev
 #### *Decentralized Orchestration*
 
 - *[Docker Swarm](https://docs.docker.com/engine/swarm/):*  
-  Can be adapted for use in a decentralized network (or integrated with DIOS) to coordinate nodes without a traditional central orchestrator.
+  Can be adapted for use in a decentralized network (or integrated with [DIOS](https://github.com/FJortay/DIOS-Operating-System)) to coordinate nodes without a traditional central orchestrator.
 
 #### *P2P Infrastructure*
 
-- *[DIOS](https://github.com/FJortay/DIOS):*  
+- *[DIOS](https://github.com/FJortay/DIOS-Operating-System):*  
   Provides the underlying decentralized network for deployment and execution of DICS services, ensuring service distribution without centralized control. In a simplified [OSI model](https://en.wikipedia.org/wiki/OSI_model) with only two layers, DICS functions as the upper layer while DIOS forms the lower layer.
 
 ---
@@ -190,19 +191,27 @@ In Sections 3 to 8, open source solutions are proposed for each component. Howev
 ### 8. Backend Development Tools
 
 - *[Node.js](https://nodejs.org/)* with *[Express](https://expressjs.com/):*  
-  For API and microservices development, containerized and deployed on DIOS.
+  For API and microservices development, containerized and deployed on [DIOS](https://github.com/FJortay/DIOS-Operating-System).
   
 - *[Python](https://www.python.org/)* with *[Flask](https://flask.palletsprojects.com/)* or *[Django](https://www.djangoproject.com/):*  
   For building backend services tailored to a decentralized environment.
 
 ---
 
-### 9. How To Participate
+### 9. Resources
 
-Help refine this *first draft* README and contribute ideas to evolve the DICS platform. Your input is essential as we split the *"Key Software Modules"* into several sub-projects and work collaboratively towards a fully decentralized, AI-enhanced co-management system.
+#### *Co-management:*
+  - *Global* : [democratiedirecte.net/definition](https://democratiedirecte.net/definition)
+  - *Local* : [democratiedirecte.net/association](https://democratiedirecte.net/association)
 
 ---
 
-### 10. Conclusion
+### 10. How To Participate
 
-Before 2023, a project like the DICS/[DIOS](https://github.com/FJortay/DIOS) system might have seemed out of reach. However, advances in conversational AI now enable us to design and implement a truly collective intelligence system with capabilities that were unimaginable just a few years ago. While significant challenges lie ahead, the potential rewards—in terms of innovation, security, and democratic engagement—are vast and inspiring.
+Help refine this *first draft* README and contribute ideas to evolve the DICS platform. Your input is essential as we split this project into several sub-projects and work collaboratively towards a fully decentralized, AI-enhanced co-management system.
+
+---
+
+### 11. Conclusion
+
+Before 2023, a project like "DISC on [DIOS](https://github.com/FJortay/DIOS-Operating-System)" (composing [DISCO](https://github.com/FJortay/DISCO-Collective-Intelligence)) might have seemed out of reach. However, advances in conversational AI now enable us to design and implement such a truly collective intelligence system with capabilities that were unimaginable just a few years ago. While significant challenges lie ahead, the potential rewards—in terms of innovation, security, and democratic engagement—are vast and inspiring.
