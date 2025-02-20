@@ -87,7 +87,7 @@ In the following sections (3 to 8), open-source solutions are proposed for each 
 - ***Writing Assistance:***
   - *[LanguageTool](https://languagetool.org/):* Offers real-time corrections for grammar and style via an API integration.
 
-### 2.3. Decentralized and Secure Voting
+### 2.3. Voting System
 
 - *[Helios](https://heliosvoting.org/)* and *[Belenios](https://www.belenios.org/)* are tailored for electoral processes, although they may require adaptation for referendum-style and large-scale voting scenarios.
 - *[Loomio](https://www.loomio.com/)* unifies the three decision-making phases but is based on a client-server model. Ongoing efforts aim to decentralize its processes, scale up for mass participation, and integrate AI-based anomaly detection.
