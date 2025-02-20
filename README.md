@@ -1,21 +1,21 @@
 # DICS Collaborative Management  
 Design of a co-management system on a decentralized network, enhanced by AI
 
-- [1. Summary](#1-summary)
-- [2. How AI can streamline DICS](#2-how-ai-can-streamline-dics)
-- [3. Front Office Modules](#3-front-office-modules)
-- [4. Interaction Between Modules](#4-interaction-between-modules)
-- [5. Security](#5-security)
-- [6. User Experience (UX)](#6-user-experience-ux)
-- [7. Global Architecture](#7-global-architecture)
-- [8. Backend Development Tools](#8-backend-development-tools)
-- [9. Resources](#9-resources)
-- [10. How To Participate](#10-how-to-participate)
-- [11. Conclusion](#11-conclusion)
+- [Summary](#summary)
+- [1. How AI can streamline DICS](#1-how-ai-can-streamline-dics)
+- [2. Front Office Modules](#2-front-office-modules)
+- [3. Interaction Between Modules](#3-interaction-between-modules)
+- [4. Security](#4-security)
+- [5. User Experience (UX)](#5-user-experience-ux)
+- [6. Global Architecture](#6-global-architecture)
+- [7. Backend Development Tools](#7-backend-development-tools)
+- [8. Resources](#8-resources)
+- [9. How To Participate](#9-how-to-participate)
+- [10. Conclusion](#10-conclusion)
 
 ---
 
-## 1. Summary
+## Summary
 
 DICS envisions an intelligent, decentralized co-management web platform tailored for organizations—from local associations to municipalities and states—that operate under the principles of direct democracy. The platform integrates three sequential modules:
 
@@ -42,9 +42,9 @@ In the following sections (3 to 8), open-source solutions are proposed for each 
 
 ---
 
-## 2. How AI can streamline DICS
+## 1. How AI can streamline DICS
 
-### 2.1. **Discussion Forum**
+### 1.1. **Discussion Forum**
 
 - ***Automated Moderation:***  
   Leveraging natural language processing (NLP), AI monitors discussions in real time to filter out inappropriate content and maintain a constructive debate environment. It can also serve as an expert participant, enriching discussions with contextual insights.
@@ -52,7 +52,7 @@ In the following sections (3 to 8), open-source solutions are proposed for each 
 - ***Discussion Summarization:***  
   AI-driven tools distill long threads into concise summaries, enabling users to quickly grasp key discussion points.
 
-### 2.2. **Collective Drafting**
+### 1.2. **Collective Drafting**
 
 - ***Writing Assistance:***  
   Integrated AI offers real-time grammar and style enhancements, ensuring that voting statements and collaborative texts are clear and coherent.
@@ -60,7 +60,7 @@ In the following sections (3 to 8), open-source solutions are proposed for each 
 - ***Intelligent Version Management:***  
   When multiple contributors are involved, AI algorithms merge different document versions, detect inconsistencies, and propose a unified draft.
 
-### 2.3. **Voting System**
+### 1.3. **Voting System**
 
 - ***Impact Simulation and Forecasting:***  
   Predictive models simulate the potential consequences of proposed decisions, enabling voters to make more informed choices before finalizing votes.
@@ -70,15 +70,15 @@ In the following sections (3 to 8), open-source solutions are proposed for each 
 
 ---
 
-## 3. Front Office Modules
+## 2. Front Office Modules
 
-### 3.1. Discussion Forum
+### 2.1. Discussion Forum
 
 - ***Content Moderation and Analysis:***
   - *[spaCy](https://spacy.io/):* A robust open source NLP library that analyzes messages and flags inappropriate content.
   - *[Hugging Face Transformers](https://huggingface.co/transformers/):* Provides sentiment analysis, classification, and automatic summarization capabilities.
 
-### 3.2. Collaborative Writing
+### 2.2. Collaborative Writing
 
 - ***Real-Time Editing:***
   - *[Etherpad](https://etherpad.org/):* A containerizable, open source editor deployed on each [DIOS](https://github.com/FJortay/DIOS-Operating-System) node to support decentralized collaboration.
@@ -87,14 +87,14 @@ In the following sections (3 to 8), open-source solutions are proposed for each 
 - ***Writing Assistance:***
   - *[LanguageTool](https://languagetool.org/):* Offers real-time corrections for grammar and style via an API integration.
 
-### 3.3. Decentralized and Secure Voting
+### 2.3. Decentralized and Secure Voting
 
 - *[Helios](https://heliosvoting.org/)* and *[Belenios](https://www.belenios.org/)* are tailored for electoral processes, although they may require adaptation for referendum-style and large-scale voting scenarios.
 - *[Loomio](https://www.loomio.com/)* unifies the three decision-making phases but is based on a client-server model. Ongoing efforts aim to decentralize its processes, scale up for mass participation, and integrate AI-based anomaly detection.
 
 ---
 
-## 4. Interaction Between Modules
+## 3. Interaction Between Modules
 
 ### *API*
 - *[OpenAPI / Swagger](https://swagger.io/specification/):*  
@@ -114,7 +114,7 @@ In the following sections (3 to 8), open-source solutions are proposed for each 
 
 ---
 
-## 5. Security
+## 4. Security
 
 ### *Decentralized Identity Management*
 - *[Hyperledger Indy](https://www.hyperledger.org/use/hyperledger-indy):*  
@@ -135,7 +135,7 @@ In the following sections (3 to 8), open-source solutions are proposed for each 
 
 ---
 
-## 6. User Experience (UX)
+## 5. User Experience (UX)
 
 ### *Interactive Guides:*
   - *[Intro.js](https://introjs.com/):*  
@@ -149,7 +149,7 @@ In the following sections (3 to 8), open-source solutions are proposed for each 
 
 ---
 
-## 7. Global Architecture
+## 6. Global Architecture
 
 ### *Containerization*
 - *[Docker](https://www.docker.com/):*  
@@ -165,7 +165,7 @@ In the following sections (3 to 8), open-source solutions are proposed for each 
 
 ---
 
-## 8. Backend Development Tools
+## 7. Backend Development Tools
 
 - *[Node.js](https://nodejs.org/)* with *[Express](https://expressjs.com/):*  
   Ideal for developing APIs and microservices, containerized for deployment on [DIOS](https://github.com/FJortay/DIOS-Operating-System).
@@ -174,7 +174,7 @@ In the following sections (3 to 8), open-source solutions are proposed for each 
 
 ---
 
-## 9. Resources
+## 8. Resources
 
 ### *Co-management:*
 - *Global:* [democratiedirecte.net/definition](https://democratiedirecte.net/definition)
@@ -182,12 +182,12 @@ In the following sections (3 to 8), open-source solutions are proposed for each 
 
 ---
 
-## 10. How To Participate
+## 9. How To Participate
 
 Help us refine this *first draft* README. Your insights are crucial as we decompose the present repository into dedicated sub-projects, working together toward a fully decentralized, AI-enhanced co-management system.
 
 ---
 
-## 11. Conclusion
+## 10. Conclusion
 
 What once appeared unattainable—building a co-management system like "DICS on [DIOS](https://github.com/FJortay/DIOS-Operating-System)" (forming the basis of [DISCO](https://github.com/FJortay/DISCO-Collective-Intelligence))—is now possible. Advances in conversational AI empower us to create collective intelligence systems with capabilities that were unimaginable just a few years ago. While challenges persist, the potential for innovation, enhanced security, and deeper democratic engagement is truly inspiring.
