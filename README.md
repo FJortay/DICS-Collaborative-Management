@@ -4,7 +4,7 @@ Design of a co-management system on a decentralized network, enhanced by AI
 
 - [1. Summary](#1-summary)
 - [2. How AI can streamline DICS](#2-how-ai-can-streamline-dics)
-- [3. AI-Powered Module](#3-ai-powered-modules)
+- [3. Front Office Modules](#3-front-office-modules)
 - [4. Interaction Between Modules](#4-interaction-between-modules)
 - [5. Security](#5-security)
 - [6. User Experience (UX)](#6-user-experience-ux)
@@ -71,7 +71,7 @@ In the following sections (3 to 8), open-source solutions are proposed for each 
 
 ---
 
-### 3. AI-Powered Modules
+### 3. Front Office Modules
 
 #### 3.1. Discussion Forum
 
@@ -185,10 +185,10 @@ In the following sections (3 to 8), open-source solutions are proposed for each 
 
 ### 10. How To Participate
 
-Help us refine this *first draft* README. Your insights are crucial as we decompose the “Key Software Modules” into dedicated sub-projects, working together toward a fully decentralized, AI-enhanced co-management system.
+Help us refine this *first draft* README. Your insights are crucial as we decompose the present repository into dedicated sub-projects, working together toward a fully decentralized, AI-enhanced co-management system.
 
 ---
 
 ### 11. Conclusion
 
-What once appeared unattainable—building a co-management system like "DICS on [DIOS](https://github.com/FJortay/DIOS-Operating-System)", forming the basis of [DISCO](https://github.com/FJortay/DISCO-Collective-Intelligence)—is now possible. Advances in conversational AI empower us to create collective intelligence systems with capabilities that were unimaginable just a few years ago. While challenges persist, the potential for innovation, enhanced security, and deeper democratic engagement is truly inspiring.
+What once appeared unattainable—building a co-management system like "DICS on [DIOS](https://github.com/FJortay/DIOS-Operating-System)" (forming the basis of [DISCO](https://github.com/FJortay/DISCO-Collective-Intelligence))—is now possible. Advances in conversational AI empower us to create collective intelligence systems with capabilities that were unimaginable just a few years ago. While challenges persist, the potential for innovation, enhanced security, and deeper democratic engagement is truly inspiring.
