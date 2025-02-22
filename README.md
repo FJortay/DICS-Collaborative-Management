@@ -9,9 +9,10 @@ Design of a co-management system on a decentralized network, enhanced by AI
 - [5. User Experience (UX)](#5-user-experience-ux)
 - [6. Global Architecture](#6-global-architecture)
 - [7. Backend Development Tools](#7-backend-development-tools)
-- [8. Resources](#8-resources)
-- [9. How To Participate](#9-how-to-participate)
-- [10. Conclusion](#10-conclusion)
+- [8. Project Phases](#8-project-phases)
+- [9. Resources](#9-resources)
+- [10. How To Participate](#10-how-to-participate)
+- [11. Conclusion](#11-conclusion)
 
 ---
 
@@ -182,12 +183,30 @@ In the following sections (3 to 8), open-source solutions are proposed for each 
 
 ---
 
-## 9. How To Participate
+## 9. Project Phases
+
+1. Improve this README (deadline: t+1Y).
+   
+2. Integration of existing free software, on a client-server WAN (deadline: t+3Y).
+   
+3. Migration of the system on a P2P LAN (deadline: t+6Y).
+   
+4. Migration of the system on a P2P WAN (deadline: t+8Y).
+   
+5. Based on the information collected during the previous phases:
+   
+   - Detail missing features;
+     
+   - Define standards for systemic scalability of DICS modular components (deadline: t+9Y). 
+
+---
+
+## 10. How To Participate
 
 Help us refine this *first draft* README. Your insights are crucial as we decompose the present repository into dedicated sub-projects, working together toward a fully decentralized, AI-enhanced co-management system.
 
 ---
 
-## 10. Conclusion
+## 11. Conclusion
 
 What once appeared unattainable—building a co-management system like "DICS on [DIOS](https://github.com/FJortay/DIOS-Operating-System)" (forming the basis of [DISCO](https://github.com/FJortay/DISCO-Collective-Intelligence))—is now possible. Advances in conversational AI empower us to create collective intelligence systems with capabilities that were unimaginable just a few years ago. While challenges persist, the potential for innovation, enhanced security, and deeper democratic engagement is truly inspiring.
