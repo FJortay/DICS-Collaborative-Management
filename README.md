@@ -203,7 +203,7 @@ In the following sections (3 to 8), open-source solutions are proposed for each 
 
 ## 10. How To Participate
 
-We are at phase 1.
+We are at phase 1. Help improve this README.
 
 ---
 
