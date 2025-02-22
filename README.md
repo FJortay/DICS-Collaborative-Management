@@ -203,7 +203,7 @@ In the following sections (3 to 8), open-source solutions are proposed for each 
 
 ## 10. How To Participate
 
-Help us refine this *first draft* README. Your insights are crucial as we decompose the present repository into dedicated sub-projects, working together toward a fully decentralized, AI-enhanced co-management system.
+We are at phase 1.
 
 ---
 
