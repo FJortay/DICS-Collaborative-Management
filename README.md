@@ -9,8 +9,8 @@ Design of a co-management system on a decentralized network, enhanced by AI
 - [5. User Experience (UX)](#5-user-experience-ux)
 - [6. Global Architecture](#6-global-architecture)
 - [7. Backend Development Tools](#7-backend-development-tools)
-- [8. Project Phases](#8-project-phases)
-- [9. Resources](#9-resources)
+- [8. Resources](#8-resources)
+- [9. Project Phases](#9-project-phases)
 - [10. How To Participate](#10-how-to-participate)
 - [11. Conclusion](#11-conclusion)
 
