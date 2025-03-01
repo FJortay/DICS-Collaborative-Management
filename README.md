@@ -1,5 +1,5 @@
 # DICS Collaborating System  
-Design of a collaborative decision making system, on decentralized network, enhanced by AI
+***Design of a collaborative decision making system, on decentralized network, enhanced by AI***
 
 - [Summary](#summary)
 - [1. How AI can streamline DICS](#1-how-ai-can-streamline-dics)
