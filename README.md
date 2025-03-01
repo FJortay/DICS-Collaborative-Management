@@ -21,7 +21,7 @@ Design of a collaborative decision making system, on decentralized network, enha
 DICS is (a project for) an intelligent, decentralized web system for collaborative decision making, tailored for organizations of all types and sizes. The platform integrates three sequential modules:
 
 1. Discussion forum  
-2. Collective drafting (to formulate voting statements)  
+2. Collaborative drafting (to formulate voting statements)  
 3. Voting system
 
 **Software and Hardware Environment:**
@@ -46,7 +46,7 @@ In the following sections (3 to 8), open-source solutions are proposed for each 
 - ***Discussion Summarization:***  
   AI-driven tools distill long threads into concise summaries, enabling users to quickly grasp key discussion points.
 
-### 1.2. **Collective Drafting**
+### 1.2. **Collaborative Drafting**
 
 - ***Writing Assistance:***  
   Integrated AI offers real-time grammar and style enhancements, ensuring that voting statements and collaborative texts are clear and coherent.
