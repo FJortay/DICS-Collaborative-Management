@@ -24,13 +24,6 @@ DICS is (a project for) an intelligent, decentralized co-management web platform
 2. Collective drafting (to formulate voting statements)  
 3. Voting system
 
-Collectively, these modules support four essential facets of organizational management:
-
-- *Control:* Guaranteeing adherence to internal regulations.
-- *Audit:* Enabling continuous refinement of those regulations.
-- *Projects:* Facilitating organizational development initiatives.
-- *Operational:* Managing everyday administrative tasks.
-
 **Software and Hardware Environment:**
 
 - ***Software.*** DICS is designed to be ***decentralized*** (with modules acting as both client and server), ***modular*** (to accommodate future technological advancements), and entirely composed of ***free software*** (per [fsf.org](https://fsf.org)).
