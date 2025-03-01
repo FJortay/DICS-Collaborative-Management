@@ -1,5 +1,5 @@
-# DICS Collaborative Management  
-Design of a co-management system on a decentralized network, enhanced by AI
+# DICS Collaborating System  
+Design of a collaborative decision making system, on decentralized network, enhanced by AI
 
 - [Summary](#summary)
 - [1. How AI can streamline DICS](#1-how-ai-can-streamline-dics)
@@ -18,7 +18,7 @@ Design of a co-management system on a decentralized network, enhanced by AI
 
 ## Summary
 
-DICS is (a project for) an intelligent, decentralized co-management web platform tailored for organizations—from local associations to municipalities and states—that operate under the principles of direct democracy. The platform integrates three sequential modules:
+DICS is (a project for) an intelligent, decentralized web system for collaborative decision making, tailored for organizations of all types and sizes. The platform integrates three sequential modules:
 
 1. Discussion forum  
 2. Collective drafting (to formulate voting statements)  
