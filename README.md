@@ -12,7 +12,6 @@
 - [8. Resources](#8-resources)
 - [9. Project Phases](#9-project-phases)
 - [10. How To Participate](#10-how-to-participate)
-- [11. Conclusion](#11-conclusion)
 
 ---
 
@@ -197,9 +196,3 @@ In sections 2 to 7, open-source solutions are proposed for each component. These
 ## 10. How To Participate
 
 We are at phase 1. Help improve this README.
-
----
-
-## 11. Conclusion
-
-What once appeared unattainable—building a decentralized system for collaborative decision making like "DICS on [DIOS](https://github.com/FJortay/DIOS-Operating-System)" (forming the basis of [DISCO](https://github.com/FJortay/DISCO-Collective-Intelligence))—is now possible. Advances in AI empower us to create collective intelligence systems with capabilities that were unimaginable just a few years ago. While challenges persist, the potential for innovation, enhanced security, and deeper democratic engagement is truly inspiring.
