@@ -28,9 +28,9 @@ DICS is (a project for) an intelligent, decentralized web system for collaborati
 
 - ***Software.*** DICS is designed to be ***decentralized*** (with modules acting as both client and server), ***modular*** (to accommodate future technological advancements), and entirely composed of ***free software*** (per [fsf.org](https://fsf.org)).
 
-- ***Hardware.*** DICS operates on the [DIOS network](https://github.com/FJortay/DIOS-Operating-System), which is P2P, wireless, and AI-enhanced. Each organization member is expected to use two types of [open source terminals](https://www.gnu.org/philosophy/free-hardware-designs.en.html): a desktop computer and an IPV card—a forthcoming smart card-like device equipped with a touchscreen and virtual keyboard for secure identification, payments, and voting. Notably, the system intentionally avoids smartphone dependency to address concerns over mental health and security.
+- ***Hardware.*** DICS operates on the [DIOS network](https://github.com/FJortay/DIOS-Operating-System), which is P2P, wireless, and AI-enhanced.
 
-In the following sections (3 to 8), open-source solutions are proposed for each component. These modules must be designed for standardized integration to facilitate system evolvability. Given that many software packages predate today’s conversational AI advancements, certain elements of DICS may need to be developed from scratch or adapted through integration with existing tools.
+In sections 2 to 7, open-source solutions are proposed for each component. These modules must be designed for standardized integration to facilitate system evolvability. Given that many software packages predate today’s conversational AI advancements, certain elements of DICS may need to be developed from scratch or adapted through integration with existing tools.
 
 *DICS Collaborative Management, alongside [DIOS Operating System](https://github.com/FJortay/DIOS-Operating-System), forms part of the [DISCO Collective Intelligence](https://github.com/FJortay/DISCO-Collective-Intelligence) project.*
 
@@ -171,8 +171,8 @@ In the following sections (3 to 8), open-source solutions are proposed for each 
 ## 8. Resources
 
 ### *Co-management:*
-- *Global:* [democratiedirecte.net/definition](https://democratiedirecte.net/definition)
-- *Local:* [democratiedirecte.net/association](https://democratiedirecte.net/association)
+- *Global:* [democratiedirecte.net/definition](https://democratiedirecte.net/definition) (FR)
+- *Local:* [democratiedirecte.net/association](https://democratiedirecte.net/association) (FR)
 
 ---
 
